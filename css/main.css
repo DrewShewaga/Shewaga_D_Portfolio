@@ -56,7 +56,7 @@
 
   .mainNav {
     left: -138px;
-    top: 400px; }
+    top: 55%; }
 
   .navItem, .navItem a {
     font-size: .9em; }
@@ -64,7 +64,7 @@
   .navLine {
     height: 240px;
     left: 85px;
-    top: 280px; } }
+    top: 21vw; } }
 .pageTop {
   display: grid;
   grid-template-columns: 45% 55%; }
@@ -134,17 +134,17 @@
   .titleLineTop {
     margin: 0 auto;
     width: 300px;
-    margin-top: 230px; }
+    margin-top: 38%; }
 
   .pageTitle {
-    margin-top: 60px;
+    margin-top: 13%;
     font-size: 5.6em;
-    width: 50vh;
+    width: 280px;
     margin-left: 0; }
 
   .titleLineBot {
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 13%;
     width: 300px; }
 
   .projectRoll {
