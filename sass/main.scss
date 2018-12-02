@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import '_vars';
+@import 'modules/_mixins';
+@import 'modules/_header';
+@import 'modules/_pageTop';
+
+
+/*this class will hide elements on our page*/
+.hidden
+{
+		display: none;
+}
+
+.clearfix:after
+{
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+@font-face {
+	font-family: Gothic;
+	src: url(../assets/CenturyGothic.ttf);
+}
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: $white;
+}
