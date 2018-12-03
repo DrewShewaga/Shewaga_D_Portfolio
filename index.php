@@ -59,6 +59,49 @@
 
     </section>
 
+
+
+    <section class="myWork">
+
+        <h2 class="contTitle">My Work</h2>
+
+        <div class="workMenu">
+            <ul>
+                <li class="workOpt optL underLine">Development</li>
+                <li class="workOpt optR">3D Design</li>
+            </ul>
+        </div>
+
+        <div class="workArea">
+
+            <div class="workDisp">
+                <h4 class="workTitle">Pure Volume</h4>
+                <p class="workDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
+                <img src="images/pureVolume_preview.png" alt="work image 1" class="workImg">
+            </div>
+
+            <div class="workDisp">
+                <h4 class="workTitle">Pure Volume</h4>
+                <p class="workDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
+                <img src="images/pureVolume_preview.png" alt="work image 2" class="workImg">
+            </div>
+
+            <div class="workDisp">
+                <h4 class="workTitle">Pure Volume</h4>
+                <p class="workDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
+                <img src="images/pureVolume_preview.png" alt="work image 3" class="workImg">
+            </div>
+
+            <div class="workDisp">
+                <h4 class="workTitle">Pure Volume</h4>
+                <p class="workDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
+                <img src="images/pureVolume_preview.png" alt="work image 4" class="workImg">
+            </div>
+
+        </div>
+
+    </section>
+
 	<script src="js/main.js"></script>
 </body>
 </html>

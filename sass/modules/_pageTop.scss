@@ -47,14 +47,13 @@
 }
 
 .projectRoll {
-	font-size: 2em;
+	font-size: 1.4em;
 	color: $black;
 	letter-spacing: .1em;
 	width: 20vh;
 	text-align: center;
-	margin-left: 38vh;
-	margin-top: 8vh;
-	display: none;
+	margin-left: 26vh;
+	margin-top: 12vh;
 }
 
 .imgBlock {
@@ -99,6 +98,8 @@
     }
     
     .projectRoll {
-        display: initial;
+        font-size: 2em;
+		margin-left: 38vh;
+		margin-top: 8vh;
     }
 }

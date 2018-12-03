@@ -1,0 +1,141 @@
+.contTitle {
+    display: none;
+}
+
+.workMenu {
+    width: 100%;
+    display: flex;
+}
+
+.workMenu ul {
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.workOpt {
+    margin-top: 20vw;
+    margin-bottom: 50px;
+    display: inline;
+    font-size: 1em;
+    color: $black;
+    cursor: pointer;
+    letter-spacing: .13em;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.workOpt:hover {
+    color: $light;
+}
+
+.workOpt:active {
+    border-bottom: $light solid 1px;
+}
+
+.optL {
+    float: left;
+}
+
+.optR {
+    float: right;
+}
+
+.underLine {
+    border-bottom: $light solid 1px;
+}
+
+.workArea {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.workDisp {
+    grid-column: 1/3;
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.workTitle {
+    width: 45%;
+    float: left;
+    color: $black;
+    font-size: 1.05em;
+    font-family: Gothic;
+    margin-bottom: .6em;
+}
+
+.workDesc {
+    width: 45%;
+    float: left;
+    clear: left;
+    color: $black;
+    font-size: .85em;
+    line-height: 1.15em;
+}
+
+.workImg {
+    width: 50%;
+    float: right;
+    margin-top: -1.6em;
+}
+
+//MEDIA QUERIES
+
+@include desktop {
+    .myWork {
+        margin-top: 8vw;
+    }
+
+    .contTitle {
+        display: initial;
+        text-transform: uppercase;
+        letter-spacing: .3em;
+        border-bottom: 1px $light solid;
+        font-size: 1.3em;
+        color: $black;
+        padding: 4px;
+        margin-left: 88px;
+    }
+
+    .workMenu {
+        width: 0px;
+        display: block;
+        transform: rotate(270deg);
+        position: absolute;
+        left: 45px;
+        top: 95vw;
+    }
+    
+    .workMenu ul {
+        width: 350px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    .workOpt {
+        margin-top: 0;
+        margin-bottom: 0;
+        display: block;
+        font-size: .78em;
+    }
+    
+    .optL {
+        float: none;
+        margin-left: 35px;
+    }
+    
+    .optR {
+        float: none;
+    }
+
+    .workArea {
+        width: 95%;
+        float: right;
+        margin-top: 100px;
+    }
+    
+    .workDisp{
+        grid-column: span 1;
+    }
+}
