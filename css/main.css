@@ -9,7 +9,7 @@
 .myName {
   position: absolute;
   top: 78px;
-  left: 45vw;
+  right: 5vw;
   letter-spacing: .1em;
   font-size: .9em; }
 
@@ -78,11 +78,12 @@
   width: 100%; }
 
 .imageArea {
-  height: 100vh;
-  width: 100%;
+  height: auto;
+  width: 95%;
   grid-column: 2 / 3;
   flex-wrap: wrap;
-  display: none; }
+  display: none;
+  margin-left: 5%; }
 
 .titleLineTop {
   margin: 0 auto;
@@ -95,7 +96,7 @@
   margin-top: 40px;
   margin-left: 10vw;
   font-size: 3.2em;
-  width: 35vh;
+  width: 3em;
   text-align: center;
   font-family: Gothic;
   color: #333333;
@@ -111,10 +112,10 @@
   font-size: 1.4em;
   color: #333333;
   letter-spacing: .1em;
-  width: 20vh;
+  width: 4.8em;
   text-align: center;
-  margin-left: 26vh;
-  margin-top: 12vh; }
+  margin-left: 42vw;
+  margin-top: 75px; }
 
 .imgBlock {
   flex-basis: 50%; }
@@ -148,8 +149,8 @@
 
   .projectRoll {
     font-size: 2em;
-    margin-left: 38vh;
-    margin-top: 8vh; } }
+    margin-left: 24vw;
+    margin-top: 60px; } }
 .contTitle {
   display: none; }
 
@@ -220,7 +221,7 @@
 
 @media screen and (min-width: 800px) {
   .myWork {
-    margin-top: 8vw; }
+    margin-top: 100px; }
 
   .contTitle {
     display: initial;
@@ -238,7 +239,7 @@
     transform: rotate(270deg);
     position: absolute;
     left: 45px;
-    top: 95vw; }
+    top: 100vw; }
 
   .workMenu ul {
     width: 350px;
@@ -264,7 +265,80 @@
     margin-top: 100px; }
 
   .workDisp {
-    grid-column: span 1; } }
+    grid-column: span 1; }
+
+  .workTitle {
+    font-size: 2em;
+    margin-bottom: 1em; }
+
+  .workDesc {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    letter-spacing: .15em; }
+
+  .workImg {
+    margin-top: -3.5em; } }
+.mainFooter {
+  width: 100%; }
+
+.footerLine {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px; }
+
+.footerLogo {
+  width: 35px;
+  height: 70px;
+  float: left;
+  margin-left: 8%;
+  margin-bottom: 20px; }
+
+.footerNav {
+  float: right;
+  margin-right: 8%;
+  margin-top: 24px; }
+
+.footerOpt {
+  display: inline; }
+
+.footerOpt a {
+  color: #333333;
+  text-decoration: none;
+  font-size: .85em;
+  transition: all .1s ease-in-out; }
+
+.footerOpt a:hover {
+  border-bottom: #888888 solid 1px;
+  padding-bottom: 2px; }
+
+.footMid {
+  margin: 0 8px; }
+
+@media screen and (min-width: 800px) {
+  .mainFooter {
+    height: 100px;
+    margin-top: 870px; }
+
+  .footerLine {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 50px; }
+
+  .footerLogo {
+    width: 40px;
+    height: 80px;
+    margin-bottom: 50px; }
+
+  .footerNav {
+    margin-right: 10%;
+    margin-top: 35px;
+    width: 70%; }
+
+  .footerOpt a {
+    font-size: .9em; }
+
+  .footMid {
+    margin: 0 40%; } }
 /*this class will hide elements on our page*/
 .hidden {
   display: none; }
