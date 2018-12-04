@@ -84,7 +84,7 @@
 
 @include desktop {
     .myWork {
-        margin-top: 8vw;
+        margin-top: 100px;
     }
 
     .contTitle {
@@ -104,7 +104,7 @@
         transform: rotate(270deg);
         position: absolute;
         left: 45px;
-        top: 95vw;
+        top: 100vw;
     }
     
     .workMenu ul {
@@ -135,7 +135,22 @@
         margin-top: 100px;
     }
     
-    .workDisp{
+    .workDisp {
         grid-column: span 1;
+    }
+
+    .workTitle {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    .workDesc {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        letter-spacing: .15em;
+    }
+
+    .workImg {
+        margin-top: -3.5em;
     }
 }

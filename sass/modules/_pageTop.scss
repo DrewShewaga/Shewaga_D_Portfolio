@@ -13,11 +13,12 @@
 }
 
 .imageArea {
-	height: 100vh;
-	width: 100%;
+	height: auto;
+	width: 95%;
 	grid-column: 2 / 3;
 	flex-wrap: wrap;
 	display: none;
+	margin-left: 5%;
 }
 
 .titleLineTop {
@@ -32,7 +33,7 @@
 	margin-top: 40px;
 	margin-left: 10vw;
 	font-size: 3.2em;
-	width: 35vh;
+	width: 3em;
 	text-align: center;
 	font-family: Gothic;
 	color: $black;
@@ -50,10 +51,10 @@
 	font-size: 1.4em;
 	color: $black;
 	letter-spacing: .1em;
-	width: 20vh;
+	width: 4.8em;
 	text-align: center;
-	margin-left: 26vh;
-	margin-top: 12vh;
+	margin-left: 42vw;
+	margin-top: 75px;
 }
 
 .imgBlock {
@@ -99,7 +100,7 @@
     
     .projectRoll {
         font-size: 2em;
-		margin-left: 38vh;
-		margin-top: 8vh;
+		margin-left: 24vw;
+		margin-top: 60px;
     }
 }

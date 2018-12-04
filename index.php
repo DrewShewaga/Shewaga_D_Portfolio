@@ -102,6 +102,24 @@
 
     </section>
 
+
+
+    <footer class="mainFooter">
+
+        <svg height="1" width="2120" class="footerLine">
+            <line x1="0" y1="0" x2="2120" y2="0" style="stroke:rgb(190,190,190);stroke-width:2" />
+        </svg>
+
+        <img src="images/ds_logo.svg" alt="Logo of Drew Shewaga" class="footerLogo">
+
+        <ul class="footerNav">
+            <li class="footerOpt"><a href="#">My Work</a></li>
+            <li class="footerOpt footMid"><a href="contact.php">Contact Me</a></li>
+            <li class="footerOpt"><a href="about.php">About Me</a></li>
+        </ul>
+
+    </footer>
+
 	<script src="js/main.js"></script>
 </body>
 </html>
