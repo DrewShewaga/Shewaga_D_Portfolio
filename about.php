@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shewaga.com - About</title>
 <link href="css/reset.css" rel="stylesheet" type="text/css">
-<link href="css/main.css?version=2" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>

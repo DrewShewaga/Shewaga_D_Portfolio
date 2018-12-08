@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shewaga.com</title>
 <link href="css/reset.css" rel="stylesheet" type="text/css">
-<link href="css/main.css?version=2" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -76,31 +76,43 @@
 
             <div class="workDisp">
                 <h4 class="workTitle" id="title1">Pure Volume</h4>
-                <p class="workDesc" id="desc1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
+                <p class="workDesc" id="desc1"></p>
                 <img src="images/pureVolume_preview.png" alt="work image 1" class="workImg" id=workImg1>
             </div>
 
             <div class="workDisp">
                 <h4 class="workTitle" id="title2">Pure Volume</h4>
-                <p class="workDesc" id="desc2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
+                <p class="workDesc" id="desc2"></p>
                 <img src="images/pureVolume_preview.png" alt="work image 2" class="workImg" id=workImg2>
             </div>
 
             <div class="workDisp">
                 <h4 class="workTitle" id="title3">Pure Volume</h4>
-                <p class="workDesc" id="desc3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
+                <p class="workDesc" id="desc3"></p>
                 <img src="images/pureVolume_preview.png" alt="work image 3" class="workImg" id=workImg3>
             </div>
 
             <div class="workDisp">
                 <h4 class="workTitle" id="title4">Pure Volume</h4>
-                <p class="workDesc" id="desc4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
+                <p class="workDesc" id="desc4"></p>
                 <img src="images/pureVolume_preview.png" alt="work image 4" class="workImg" id=workImg4>
             </div>
 
+        </div> <!--END OF workArea-->
+
+        <div class="vidArea hidden">
+            <video src="videos/reel.mp4" class="reel" controls></video>
         </div>
 
     </section>
+
+    <section class="lightbox">
+		<h2 class="hidden">light box</h2>
+		<span class="closeLightbox">x</span>
+			<div class="lbImgCont">
+			    <img src="images/pureVolume_preview.png" alt="full screen image" id="lbImg">
+			</div>
+	</section>
 
 
 

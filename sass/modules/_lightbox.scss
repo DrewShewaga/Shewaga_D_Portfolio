@@ -1,0 +1,74 @@
+
+.lightbox {
+	width: 0%;
+	height: 95%;
+	background-color: rgba(0,0,0,0.8);
+	position: fixed;
+	top: 2.5%;
+	display: none;
+	right: 7.5%;
+	transition: all .5s ease-in-out .1s;
+	-o-transition: opacity .06s ease-in;
+}
+
+.showLightbox {
+	display: block;
+	width: 85%;
+	right: 7.5%;
+	animation: lbOpen .4s ease-in-out 1 forwards;
+}
+
+.scrollStop {
+	overflow: hidden;
+}
+
+.closeLightbox {
+	position: absolute;
+	color: #fff;
+	font-size: 2em;
+	cursor: pointer;
+	right: 24px;
+	top: 12px;
+}
+
+.closeLightbox:hover {
+	color: #999;
+}
+
+.lbImgCont {
+    height: 100%;
+    width: 100%;
+	display: flex;
+	flex-direction: column;
+    overflow: hidden;
+}
+
+#lbImg {
+	width: 100%;
+	height: auto;
+    margin: auto 0;
+}
+
+@keyframes lbOpen {
+	0% {
+		width: 0%;
+		right: 50%;
+	}
+
+	100% {
+		width: 85%;
+		right: 7.5%;
+	}
+}
+
+@include desktop {
+	.lbImgCont {
+		flex-direction: row;
+	}
+
+	#lbImg {
+		height: 100%;
+		width: auto;
+		margin: 0 auto;
+	}
+}
