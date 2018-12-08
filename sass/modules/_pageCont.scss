@@ -13,7 +13,7 @@
 }
 
 .workOpt {
-    margin-top: 20vw;
+    margin-top: 200px;
     margin-bottom: 50px;
     display: inline;
     font-size: 1em;
@@ -78,6 +78,16 @@
     width: 50%;
     float: right;
     margin-top: -1.6em;
+}
+
+.vidArea {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.reel {
+    width: 100%;
 }
 
 //MEDIA QUERIES
@@ -152,6 +162,10 @@
 
     .workImg {
         margin-top: -3.5em;
+    }
+
+    .vidArea {
+        margin: 100px auto;
     }
 }
 
@@ -238,7 +252,7 @@
 .aboutDesc {
     margin: 0 auto;
     width: 80%;
-    margin-top: 140px;
+    margin-top: 160px;
     margin-bottom: 40px;
     line-height: 1.8em;
     color: $black;
