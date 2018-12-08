@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shewaga.com</title>
 <link href="css/reset.css" rel="stylesheet" type="text/css">
-<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/main.css?version=2" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -46,22 +46,22 @@
                 <line x1="0" y1="0" x2="300" y2="0" style="stroke:rgb(190,190,190);stroke-width:2" />
             </svg>
 
-            <h3 class="projectRoll">Role: Developer</h3>
+            <!-- <h3 class="projectRoll">Role: Developer</h3> -->
 
         </div>
 
         <div class="imageArea">
-            <div class="imgBlock"><img src="images/pureVolume_preview.png" alt="workPreview" class="imgQuad"></div>
-            <div class="imgBlock"><img src="images/pureVolume_preview.png" alt="workPreview" class="imgQuad"></div>
-            <div class="imgBlock"><img src="images/pureVolume_preview.png" alt="workPreview" class="imgQuad"></div>
-            <div class="imgBlock"><img src="images/pureVolume_preview.png" alt="workPreview" class="imgQuad"></div>
+            <div class="imgBlock"><img src="" alt="workPreview" id="workPreview1" class="imgQuad"></div>
+            <div class="imgBlock"><img src="" alt="workPreview" id="workPreview2" class="imgQuad"></div>
+            <div class="imgBlock"><img src="" alt="workPreview" id="workPreview3" class="imgQuad"></div>
+            <div class="imgBlock"><img src="" alt="workPreview" id="workPreview4" class="imgQuad"></div>
         </div>
 
     </section>
 
 
 
-    <section class="myWork">
+    <section class="pageCont">
 
         <h2 class="contTitle">My Work</h2>
 
@@ -75,27 +75,27 @@
         <div class="workArea">
 
             <div class="workDisp">
-                <h4 class="workTitle">Pure Volume</h4>
-                <p class="workDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
-                <img src="images/pureVolume_preview.png" alt="work image 1" class="workImg">
+                <h4 class="workTitle" id="title1">Pure Volume</h4>
+                <p class="workDesc" id="desc1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
+                <img src="images/pureVolume_preview.png" alt="work image 1" class="workImg" id=workImg1>
             </div>
 
             <div class="workDisp">
-                <h4 class="workTitle">Pure Volume</h4>
-                <p class="workDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
-                <img src="images/pureVolume_preview.png" alt="work image 2" class="workImg">
+                <h4 class="workTitle" id="title2">Pure Volume</h4>
+                <p class="workDesc" id="desc2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
+                <img src="images/pureVolume_preview.png" alt="work image 2" class="workImg" id=workImg2>
             </div>
 
             <div class="workDisp">
-                <h4 class="workTitle">Pure Volume</h4>
-                <p class="workDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
-                <img src="images/pureVolume_preview.png" alt="work image 3" class="workImg">
+                <h4 class="workTitle" id="title3">Pure Volume</h4>
+                <p class="workDesc" id="desc3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
+                <img src="images/pureVolume_preview.png" alt="work image 3" class="workImg" id=workImg3>
             </div>
 
             <div class="workDisp">
-                <h4 class="workTitle">Pure Volume</h4>
-                <p class="workDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
-                <img src="images/pureVolume_preview.png" alt="work image 4" class="workImg">
+                <h4 class="workTitle" id="title4">Pure Volume</h4>
+                <p class="workDesc" id="desc4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis mauris et elit sollicitudin vulputate.</p>
+                <img src="images/pureVolume_preview.png" alt="work image 4" class="workImg" id=workImg4>
             </div>
 
         </div>

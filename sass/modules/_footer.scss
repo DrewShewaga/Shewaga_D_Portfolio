@@ -47,7 +47,6 @@
 @include desktop {
     .mainFooter {
         height: 100px;
-        // background-color: wheat;
         margin-top: 870px;
     }
 
@@ -75,5 +74,21 @@
 
     .footMid {
         margin: 0 40%;
+    }
+}
+
+//!!!!!!!!!!!!!!!
+//CONTACT SECTION
+//!!!!!!!!!!!!!!!
+
+.contFooter {
+    width: 100%;
+}
+
+//MEDIA QUERIES 
+
+@include desktop {
+    .contFooter {
+        height: 100px;
     }
 }

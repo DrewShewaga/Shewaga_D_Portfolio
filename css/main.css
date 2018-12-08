@@ -88,7 +88,7 @@
 .titleLineTop {
   margin: 0 auto;
   margin-top: 194px;
-  margin-left: 30vw;
+  margin-left: 30%;
   width: 160px; }
 
 .pageTitle {
@@ -105,7 +105,7 @@
 .titleLineBot {
   margin: 0 auto;
   margin-top: 63px;
-  margin-left: 30vw;
+  margin-left: 30%;
   width: 160px; }
 
 .projectRoll {
@@ -151,6 +151,32 @@
     font-size: 2em;
     margin-left: 24vw;
     margin-top: 60px; } }
+.pageTitleLong {
+  text-transform: uppercase;
+  margin-top: 70px;
+  margin-left: 10vw;
+  font-size: 2.5em;
+  width: 5em;
+  text-align: center;
+  font-family: Gothic;
+  color: #333333;
+  line-height: 1.1em; }
+
+@media screen and (min-width: 800px) {
+  .pageTitleLong {
+    margin-top: 13%;
+    font-size: 5.2em;
+    width: 5.8em;
+    margin-left: 0; }
+
+  .imgBlockCont {
+    flex-basis: 100%;
+    overflow: hidden; }
+
+  .imgCont {
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid #888888; } }
 .contTitle {
   display: none; }
 
@@ -199,7 +225,7 @@
   margin-bottom: 50px; }
 
 .workTitle {
-  width: 45%;
+  width: 48%;
   float: left;
   color: #333333;
   font-size: 1.05em;
@@ -220,7 +246,7 @@
   margin-top: -1.6em; }
 
 @media screen and (min-width: 800px) {
-  .myWork {
+  .pageCont {
     margin-top: 100px; }
 
   .contTitle {
@@ -278,6 +304,84 @@
 
   .workImg {
     margin-top: -3.5em; } }
+.contInfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 180px;
+  margin-bottom: 80px; }
+
+.contInfoRow {
+  text-align: center;
+  letter-spacing: .14em;
+  line-height: 2em; }
+
+.contForm {
+  width: 80%;
+  margin: 0 auto; }
+
+.contInp {
+  width: 100%;
+  height: 2em;
+  margin-bottom: 18px;
+  margin-top: 5px;
+  background-color: #fefefe;
+  border: #888888 1px solid; }
+
+.contMessage {
+  width: 100%;
+  margin-bottom: 18px;
+  margin-top: 5px;
+  background-color: #fefefe;
+  border: #888888 1px solid; }
+
+.contSubmit {
+  margin-bottom: 80px;
+  width: 100%;
+  border: 1px solid #888888;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  padding: 5px 0;
+  background-color: #fefefe;
+  border-radius: 5px; }
+
+@media screen and (min-width: 800px) {
+  .contInfo {
+    margin-top: 100px;
+    margin-bottom: 80px; }
+
+  .contInfoRow {
+    font-size: 1.8em; }
+
+  .contForm {
+    width: 40%;
+    margin: 0 auto; }
+
+  .contMessage {
+    margin-bottom: 45px; }
+
+  .contSubmit {
+    margin-bottom: 180px; } }
+.aboutDesc {
+  margin: 0 auto;
+  width: 80%;
+  margin-top: 140px;
+  margin-bottom: 40px;
+  line-height: 1.8em;
+  color: #333333; }
+
+.indent {
+  margin-left: 25px; }
+
+@media screen and (min-width: 800px) {
+  .aboutDesc {
+    width: 60%;
+    margin-top: 65px;
+    margin-bottom: 75px;
+    font-size: 1.8em;
+    line-height: 2.2em; }
+
+  .indent {
+    margin-left: 75px; } }
 .mainFooter {
   width: 100%; }
 
@@ -339,6 +443,12 @@
 
   .footMid {
     margin: 0 40%; } }
+.contFooter {
+  width: 100%; }
+
+@media screen and (min-width: 800px) {
+  .contFooter {
+    height: 100px; } }
 /*this class will hide elements on our page*/
 .hidden {
   display: none; }

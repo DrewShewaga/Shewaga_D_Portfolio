@@ -57,7 +57,7 @@
 }
 
 .workTitle {
-    width: 45%;
+    width: 48%;
     float: left;
     color: $black;
     font-size: 1.05em;
@@ -83,7 +83,7 @@
 //MEDIA QUERIES
 
 @include desktop {
-    .myWork {
+    .pageCont {
         margin-top: 100px;
     }
 
@@ -152,5 +152,114 @@
 
     .workImg {
         margin-top: -3.5em;
+    }
+}
+
+//!!!!!!!!!!!!!!!
+//CONTACT SECTION
+//!!!!!!!!!!!!!!!
+
+.contInfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-bottom: 80px;
+}
+
+.contInfoRow {
+    text-align: center;
+    letter-spacing: .14em;
+    line-height: 2em;
+}
+
+.contForm {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contInp {
+    width: 100%;
+    height: 2em;
+    margin-bottom: 18px;
+    margin-top: 5px;
+    background-color: #fefefe;
+    border: $light 1px solid;
+}
+
+.contMessage {
+    width: 100%;
+    margin-bottom: 18px;
+    margin-top: 5px;
+    background-color: #fefefe;
+    border: $light 1px solid;  
+}
+
+.contSubmit {
+    margin-bottom: 80px;
+    width: 100%;
+    border: 1px solid $light;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    padding: 5px 0;
+    background-color: #fefefe;
+    border-radius: 5px;
+}
+
+//MEDIA QUERIES
+
+@include desktop {
+    .contInfo {
+        margin-top: 100px;
+        margin-bottom: 80px;
+    }
+
+    .contInfoRow {
+        font-size: 1.8em;
+    }
+
+    .contForm {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .contMessage {
+        margin-bottom: 45px;
+    }
+
+    .contSubmit {
+        margin-bottom: 180px;
+    }
+}
+
+//!!!!!!!!!!!!!!!
+//ABOUT SECTION
+//!!!!!!!!!!!!!!!
+
+.aboutDesc {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 140px;
+    margin-bottom: 40px;
+    line-height: 1.8em;
+    color: $black;
+}
+
+.indent {
+    margin-left: 25px;
+}
+
+//MEDIA QUERIES
+
+@include desktop {
+    .aboutDesc {
+        width: 60%;
+        margin-top: 65px;
+        margin-bottom: 75px;
+        font-size: 1.8em;
+        line-height: 2.2em;
+    }
+
+    .indent {
+        margin-left: 75px;
     }
 }
