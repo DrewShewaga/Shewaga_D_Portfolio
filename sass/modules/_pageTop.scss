@@ -24,7 +24,7 @@
 .titleLineTop {
 	margin: 0 auto;
 	margin-top: 194px;
-	margin-left: 30vw;
+	margin-left: 30%;
 	width: 160px;
 }
 
@@ -43,7 +43,7 @@
 .titleLineBot {
 	margin: 0 auto;
 	margin-top: 63px;
-	margin-left: 30vw;
+	margin-left: 30%;
 	width: 160px;
 }
 
@@ -67,7 +67,7 @@
 }
 
 
-// Media Queries
+// Media Query
 
 @include desktop {
 
@@ -102,5 +102,43 @@
         font-size: 2em;
 		margin-left: 24vw;
 		margin-top: 60px;
-    }
+	}
+}
+
+//!!!!!!!!!!!!!!!
+//CONTACT SECTION
+//!!!!!!!!!!!!!!!
+
+.pageTitleLong {
+	text-transform: uppercase;
+	margin-top: 70px;
+	margin-left: 10vw;
+	font-size: 2.5em;
+	width: 5em;
+	text-align: center;
+	font-family: Gothic;
+	color: $black;
+	line-height: 1.1em;
+}
+
+// Media Query
+
+@include desktop {
+	.pageTitleLong {
+        margin-top: 13%;
+        font-size: 5.2em;
+        width: 5.8em;
+        margin-left: 0;
+	}
+	
+	.imgBlockCont {
+		flex-basis: 100%;
+		overflow: hidden;
+	}
+
+	.imgCont {
+		width: 100%;
+		height: 100%;
+		border-left: 1px solid $light;
+	}
 }
