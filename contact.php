@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shewaga.com - Contact</title>
+<link rel="icon" type="image/png" href="http://www.shewaga.com/icon.png">
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
@@ -12,11 +13,12 @@
 
     <header class="mainHeader">
 
-        <img src="images/ds_logo.svg" alt="Logo of Drew Shewaga" class="mainLogo">
+        <a href="index.php" class="homeLink"><img src="images/ds_logo.svg" alt="Logo of Drew Shewaga" class="mainLogo"></a>
 
         <h3 class="myName">DREW SHEWAGA</h3>
 
         <nav class="mainNav">
+        <h2 class="hidden">Main navigation</h2>
             <ul class="sideList">
                 <li class="navItem"><a href="#">Contact Me</a></li>
                 <li class="navItem navMid"><a href="about.php">About Me</a></li>
@@ -70,16 +72,16 @@
 
         <form action="admin/scripts/send_Email.php" method="POST" class="contForm">
             <label for="name" class="contLabel">Name:</label>
-            <input type="text" name="name" class="contInp" required>
+            <input type="text" id="name" name="name" class="contInp" required>
 
             <label for="email" class="contLabel">Email:</label>
-            <input type="email" name="email" class="contInp" required>
+            <input type="email" id="email" name="email" class="contInp" required>
 
             <label for="subject" class="contLabel">Subject:</label>
-            <input type="text" name="subject" class="contInp">
+            <input type="text" id="subject" name="subject" class="contInp">
 
             <label for="message" class="contLabel">Message:</label>
-            <textarea cols="30" rows="10" name="message" class="contMessage" required></textarea>
+            <textarea cols="30" rows="10" id="message" name="message" class="contMessage" required></textarea>
 
             <input type="submit" name="submit" value="Send" class="contSubmit">
         </form>
@@ -104,6 +106,6 @@
 
     </footer>
 
-	<!-- <script src="js/main.js"></script> -->
+	<script src="js/main.js"></script>
 </body>
 </html>

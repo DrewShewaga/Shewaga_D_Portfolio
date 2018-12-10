@@ -7,17 +7,16 @@ function send_email(){
         || empty($_POST['email'])
         || empty($_POST['message'])){
 
-        echo 'You have not filled out all of the required fields';
+        header("Location: ../../contact.php?mail=error");
         exit;
     }
 
-   // if(!filter_var($))
 
     $to = 'drew@shewaga.com';
     $subject = $_POST['subject'];
     $message = $_POST['message'];
-    $headers = 'From: '.$_POST['email'];
-    $headers .= '   Reply-To: '.$_POST['name'];
+    $headers = 'From: contact@shewaga.com';
+    $headers .= '   Reply-To: '.$_POST['email'];
 
     mail($to, $subject, $message, $headers);
 }

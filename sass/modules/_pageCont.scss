@@ -58,7 +58,6 @@
 
 .workTitle {
     width: 48%;
-    float: left;
     color: $black;
     font-size: 1.05em;
     font-family: Gothic;
@@ -67,17 +66,35 @@
 
 .workDesc {
     width: 45%;
-    float: left;
-    clear: left;
     color: $black;
     font-size: .85em;
     line-height: 1.15em;
 }
 
+.workGit {
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    margin-bottom: 1em;
+    filter: opacity(.6);
+}
+
+.workGit:hover {
+    filter: opacity(1);
+}
+
+.gitLink {
+    width: 25%;
+}
+
 .workImg {
     width: 50%;
     float: right;
-    margin-top: -1.6em;
+    transition: all .2s ease-in-out;
+}
+
+.workImg:hover {
+    transform: scale(1.08);
 }
 
 .vidArea {
@@ -147,21 +164,18 @@
     
     .workDisp {
         grid-column: span 1;
+        margin-bottom: 100px;
     }
 
     .workTitle {
         font-size: 2em;
-        margin-bottom: 1em;
+        margin-bottom: .8em;
     }
 
     .workDesc {
         font-size: 1.2em;
         line-height: 1.5em;
         letter-spacing: .15em;
-    }
-
-    .workImg {
-        margin-top: -3.5em;
     }
 
     .vidArea {
@@ -262,6 +276,15 @@
     margin-left: 25px;
 }
 
+.resume {
+    // text-decoration: none;
+    color: $black;
+    font-size: 1.2em;
+    margin-left: 42%;
+    display: inline-block;
+    margin-bottom: 75px;
+}
+
 //MEDIA QUERIES
 
 @include desktop {
@@ -275,5 +298,9 @@
 
     .indent {
         margin-left: 75px;
+    }
+
+    .resume {
+        margin-left: 48%;
     }
 }

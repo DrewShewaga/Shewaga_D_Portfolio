@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shewaga.com - About</title>
+<link rel="icon" type="image/png" href="http://www.shewaga.com/icon.png">
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
@@ -12,11 +13,12 @@
 
     <header class="mainHeader">
 
-        <img src="images/ds_logo.svg" alt="Logo of Drew Shewaga" class="mainLogo">
+        <a href="index.php" class="homeLink"><img src="images/ds_logo.svg" alt="Logo of Drew Shewaga" class="mainLogo"></a>
 
         <h3 class="myName">DREW SHEWAGA</h3>
 
         <nav class="mainNav">
+        <h2 class="hidden">Main navigation</h2>
             <ul class="sideList">
                 <li class="navItem"><a href="contact.php">Contact Me</a></li>
                 <li class="navItem navMid"><a href="#">About Me</a></li>
@@ -49,10 +51,10 @@
         </div>
 
         <div class="imageArea">
-            <div class="imgBlock"><img src="" alt="workPreview" id="drewPort1" class="imgQuad"></div>
-            <div class="imgBlock"><img src="" alt="workPreview" id="drewPort2" class="imgQuad"></div>
-            <div class="imgBlock"><img src="" alt="workPreview" id="drewPort3" class="imgQuad"></div>
-            <div class="imgBlock"><img src="" alt="workPreview" id="drewPort4" class="imgQuad"></div>
+            <div class="imgBlock"><img src="" alt="Drew Shewaga" id="drewPort1" class="imgQuad aboutImg"></div>
+            <div class="imgBlock"><img src="" alt="Drew Shewaga" id="drewPort2" class="imgQuad aboutImg"></div>
+            <div class="imgBlock"><img src="" alt="Drew Shewaga" id="drewPort3" class="imgQuad aboutImg"></div>
+            <div class="imgBlock"><img src="" alt="Drew Shewaga" id="drewPort4" class="imgQuad aboutImg"></div>
         </div>
 
     </section>
@@ -64,6 +66,8 @@
         <h2 class="contTitle">About Me</h2>
 
         <p class="aboutDesc"><span class="indent"></span><span id="aboutText"></span></p>
+
+        <a href="includes/drew_shewaga_resume.pdf" target="_blank" class="resume">R&#233;sum&#233;</a>
 
     </section>
 
