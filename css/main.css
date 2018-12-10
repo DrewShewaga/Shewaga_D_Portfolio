@@ -125,6 +125,15 @@
   height: 100%;
   cursor: pointer; }
 
+.workPre {
+  transition: all .4s ease-in-out; }
+
+.workPre:hover {
+  transform: scale(1.04); }
+
+.aboutImg {
+  cursor: initial; }
+
 @media screen and (min-width: 800px) {
   .titleArea {
     grid-column: 1 / 2; }
@@ -227,7 +236,6 @@
 
 .workTitle {
   width: 48%;
-  float: left;
   color: #333333;
   font-size: 1.05em;
   font-family: Gothic;
@@ -235,16 +243,30 @@
 
 .workDesc {
   width: 45%;
-  float: left;
-  clear: left;
   color: #333333;
   font-size: .85em;
   line-height: 1.15em; }
 
+.workGit {
+  width: 20px;
+  height: 20px;
+  margin-top: 0;
+  margin-bottom: 1em;
+  filter: opacity(0.6); }
+
+.workGit:hover {
+  filter: opacity(1); }
+
+.gitLink {
+  width: 25%; }
+
 .workImg {
   width: 50%;
   float: right;
-  margin-top: -1.6em; }
+  transition: all .2s ease-in-out; }
+
+.workImg:hover {
+  transform: scale(1.08); }
 
 .vidArea {
   width: 80%;
@@ -300,19 +322,17 @@
     margin-top: 100px; }
 
   .workDisp {
-    grid-column: span 1; }
+    grid-column: span 1;
+    margin-bottom: 100px; }
 
   .workTitle {
     font-size: 2em;
-    margin-bottom: 1em; }
+    margin-bottom: .8em; }
 
   .workDesc {
     font-size: 1.2em;
     line-height: 1.5em;
     letter-spacing: .15em; }
-
-  .workImg {
-    margin-top: -3.5em; }
 
   .vidArea {
     margin: 100px auto; } }
@@ -384,6 +404,13 @@
 .indent {
   margin-left: 25px; }
 
+.resume {
+  color: #333333;
+  font-size: 1.2em;
+  margin-left: 42%;
+  display: inline-block;
+  margin-bottom: 75px; }
+
 @media screen and (min-width: 800px) {
   .aboutDesc {
     width: 60%;
@@ -393,7 +420,10 @@
     line-height: 2.2em; }
 
   .indent {
-    margin-left: 75px; } }
+    margin-left: 75px; }
+
+  .resume {
+    margin-left: 48%; } }
 .mainFooter {
   width: 100%; }
 
@@ -446,7 +476,7 @@
     margin-bottom: 50px; }
 
   .footerNav {
-    margin-right: 10%;
+    margin-right: 12%;
     margin-top: 35px;
     width: 70%; }
 
@@ -502,7 +532,9 @@
 #lbImg {
   width: 100%;
   height: auto;
-  margin: auto 0; }
+  margin: auto 0;
+  max-width: 100%;
+  max-height: 100%; }
 
 @keyframes lbOpen {
   0% {

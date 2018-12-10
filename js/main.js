@@ -4,6 +4,8 @@
     function onLoad(){
         if(window.location.href.indexOf("about") > -1) {
             
+        }else if(window.location.href.indexOf("contact") > -1){
+
         }else{
             const url = "admin/scripts/getWork.php";
 
@@ -57,6 +59,23 @@
 function indexLoad() {
     if(window.location.href.indexOf("about") > -1) {
             
+    }else if(window.location.href.indexOf("contact") > -1){
+        let contSubmit = document.querySelector('.contSubmit'),
+            contForm = document.querySelector('.contForm');
+
+        function checkForm(){
+            if(window.location.href.indexOf("mail=error") > -1){
+                contSubmit.value = "Try Again";
+                contSubmit.style.backgroundColor = "red";
+            }else if(window.location.href.indexOf("mail=success") > -1){
+                contSubmit.value = "Sent";
+                contSubmit.style.backgroundColor = "green";
+                contForm.action = "";
+            }
+        }
+
+        checkForm();
+        
     }else{
     // VARIABLE STACK
     let devWork = document.querySelector('.optL'),
@@ -98,22 +117,22 @@ function indexLoad() {
 
     function lbOpen1() {
         lightbox.classList.add('showLightbox');
-        lbImg.src = "images/pureVolume_preview.png";
+        lbImg.src = "images/pureVolume.png";
         body.classList.add('scrollStop');
     }
     function lbOpen2() {
         lightbox.classList.add('showLightbox');
-        lbImg.src = "images/mind_over_melody_preview.png";
+        lbImg.src = "images/mind_over_melody.png";
         body.classList.add('scrollStop');
     }
     function lbOpen3() {
         lightbox.classList.add('showLightbox');
-        lbImg.src = "images/starship_troopers_preview.png";
+        lbImg.src = "images/starship_troopers.png";
         body.classList.add('scrollStop');
     }
     function lbOpen4() {
         lightbox.classList.add('showLightbox');
-        lbImg.src = "images/st_infographic_preview.png";
+        lbImg.src = "images/st_infographic.png";
         body.classList.add('scrollStop');
     }
 

@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shewaga.com</title>
+<link rel="icon" type="image/png" href="http://www.shewaga.com/icon.png">
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
@@ -12,11 +13,12 @@
 
     <header class="mainHeader">
 
-        <img src="images/ds_logo.svg" alt="Logo of Drew Shewaga" class="mainLogo">
+        <a href="#" class="homeLink"><img src="images/ds_logo.svg" alt="Logo of Drew Shewaga" class="mainLogo"></a>
 
         <h3 class="myName">DREW SHEWAGA</h3>
 
         <nav class="mainNav">
+            <h2 class="hidden">Main navigation</h2>
             <ul class="sideList">
                 <li class="navItem"><a href="contact.php">Contact Me</a></li>
                 <li class="navItem navMid"><a href="about.php">About Me</a></li>
@@ -46,15 +48,13 @@
                 <line x1="0" y1="0" x2="300" y2="0" style="stroke:rgb(190,190,190);stroke-width:2" />
             </svg>
 
-            <!-- <h3 class="projectRoll">Role: Developer</h3> -->
-
         </div>
 
         <div class="imageArea">
-            <div class="imgBlock"><img src="" alt="workPreview" id="workPreview1" class="imgQuad"></div>
-            <div class="imgBlock"><img src="" alt="workPreview" id="workPreview2" class="imgQuad"></div>
-            <div class="imgBlock"><img src="" alt="workPreview" id="workPreview3" class="imgQuad"></div>
-            <div class="imgBlock"><img src="" alt="workPreview" id="workPreview4" class="imgQuad"></div>
+            <div class="imgBlock"><img src="" alt="workPreview" id="workPreview1" class="imgQuad workPre"></div>
+            <div class="imgBlock"><img src="" alt="workPreview" id="workPreview2" class="imgQuad workPre"></div>
+            <div class="imgBlock"><img src="" alt="workPreview" id="workPreview3" class="imgQuad workPre"></div>
+            <div class="imgBlock"><img src="" alt="workPreview" id="workPreview4" class="imgQuad workPre"></div>
         </div>
 
     </section>
@@ -75,27 +75,31 @@
         <div class="workArea">
 
             <div class="workDisp">
-                <h4 class="workTitle" id="title1">Pure Volume</h4>
-                <p class="workDesc" id="desc1"></p>
                 <img src="images/pureVolume_preview.png" alt="work image 1" class="workImg" id=workImg1>
+                <h4 class="workTitle" id="title1">My Work</h4>
+                <a href="https://github.com/DrewShewaga/Rogers_B_Dodd_E_Riekenbrauck_A_Lopez_C_Shewaga_D-1.git" class="gitLink" target="_blank"><img src="images/github.svg" alt="github link" class='workGit'></a>
+                <p class="workDesc" id="desc1"></p>
             </div>
 
             <div class="workDisp">
-                <h4 class="workTitle" id="title2">Pure Volume</h4>
-                <p class="workDesc" id="desc2"></p>
                 <img src="images/pureVolume_preview.png" alt="work image 2" class="workImg" id=workImg2>
+                <h4 class="workTitle" id="title2">My Work</h4>
+                <a href="https://github.com/DrewShewaga/mind_over_melody.git" class="gitLink" target="_blank"><img src="images/github.svg" alt="github link" class='workGit'></a>
+                <p class="workDesc" id="desc2"></p>
             </div>
 
             <div class="workDisp">
-                <h4 class="workTitle" id="title3">Pure Volume</h4>
-                <p class="workDesc" id="desc3"></p>
                 <img src="images/pureVolume_preview.png" alt="work image 3" class="workImg" id=workImg3>
+                <h4 class="workTitle" id="title3">My Work</h4>
+                <a href="https://github.com/DrewShewaga/starship_troopers.git" class="gitLink" target="_blank"><img src="images/github.svg" alt="github link" class='workGit'></a>
+                <p class="workDesc" id="desc3"></p>
             </div>
 
             <div class="workDisp">
-                <h4 class="workTitle" id="title4">Pure Volume</h4>
-                <p class="workDesc" id="desc4"></p>
                 <img src="images/pureVolume_preview.png" alt="work image 4" class="workImg" id=workImg4>
+                <h4 class="workTitle" id="title4">My Work</h4>
+                <a href="https://github.com/DrewShewaga/Star_Trek_Infographic.git" class="gitLink" target="_blank"><img src="images/github.svg" alt="github link" class='workGit'></a>
+                <p class="workDesc" id="desc4"></p>
             </div>
 
         </div> <!--END OF workArea-->

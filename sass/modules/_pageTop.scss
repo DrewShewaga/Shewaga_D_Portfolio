@@ -67,6 +67,19 @@
 	cursor: pointer;
 }
 
+.workPre {
+	transition: all .4s ease-in-out;
+}
+
+.workPre:hover {
+	transform: scale(1.04);
+
+}
+
+.aboutImg {
+	cursor: initial;
+}
+
 
 // Media Query
 
