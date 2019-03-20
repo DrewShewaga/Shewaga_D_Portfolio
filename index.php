@@ -113,9 +113,20 @@
     <section class="lightbox">
 		<h2 class="hidden">light box</h2>
 		<span class="closeLightbox">x</span>
-			<div class="lbImgCont">
-			    <img src="images/pureVolume_preview.png" alt="full screen image" id="lbImg">
-			</div>
+        <div class="breakdown">
+            <div class="bdArea">
+                <h2 class="bdTitle">Placeholder Title</h2>
+                <h3 class="bdRole">Placeholder Role</h3>
+            </div>
+
+            <div class="bdArea">
+                <p class="bdDesc">Placeholder Description</p>
+            </div>
+            
+            <div class="lbImgCont">
+                <img src="images/pureVolume_preview.png" alt="full screen image" id="lbImg">
+            </div>
+        </div>
 	</section>
 
 

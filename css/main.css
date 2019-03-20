@@ -500,7 +500,9 @@
   display: none;
   right: 7.5%;
   transition: all .5s ease-in-out .1s;
-  -o-transition: opacity .06s ease-in; }
+  -o-transition: opacity .06s ease-in;
+  overflow-y: scroll;
+  border: 1px #333333 solid; }
 
 .showLightbox {
   display: block;
@@ -522,11 +524,36 @@
 .closeLightbox:hover {
   color: #999; }
 
-.lbImgCont {
-  height: 100%;
-  width: 100%;
+.breakdown {
+  width: 90%;
+  background-color: #fafafa;
+  margin-left: 5%;
   display: flex;
   flex-direction: column;
+  border: 1px #333333 solid; }
+
+.bdTitle {
+  width: 40%;
+  float: left;
+  font-size: 1.8em;
+  font-weight: bold; }
+
+.bdRole {
+  width: 40%;
+  float: right;
+  text-align: right;
+  font-size: 1.2em; }
+
+.bdArea {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 40px; }
+
+.lbImgCont {
+  height: 100%;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
   overflow: hidden; }
 
 #lbImg {
@@ -543,14 +570,6 @@
   100% {
     width: 85%;
     right: 7.5%; } }
-@media screen and (min-width: 800px) {
-  .lbImgCont {
-    flex-direction: row; }
-
-  #lbImg {
-    height: 100%;
-    width: auto;
-    margin: 0 auto; } }
 /*this class will hide elements on our page*/
 .hidden {
   display: none; }

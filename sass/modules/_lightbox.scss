@@ -9,6 +9,8 @@
 	right: 7.5%;
 	transition: all .5s ease-in-out .1s;
 	-o-transition: opacity .06s ease-in;
+	overflow-y: scroll;
+	border: 1px $black solid;
 }
 
 .showLightbox {
@@ -35,11 +37,40 @@
 	color: #999;
 }
 
-.lbImgCont {
-    height: 100%;
-    width: 100%;
+.breakdown{
+	width: 90%;
+	background-color: $white;
+	margin-left: 5%;
 	display: flex;
 	flex-direction: column;
+	border: 1px $black solid;
+}
+
+.bdTitle{
+	width: 40%;
+	float: left;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+.bdRole{
+	width: 40%;
+	float: right;
+	text-align: right;
+	font-size: 1.2em;
+}
+
+.bdArea{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 40px;
+}
+
+.lbImgCont {
+    height: 100%;
+	width: 90%;
+	margin-left: 5%;
+	display: flex;
     overflow: hidden;
 }
 
@@ -64,13 +95,13 @@
 }
 
 @include desktop {
-	.lbImgCont {
-		flex-direction: row;
-	}
+	// .lbImgCont {
+	// 	flex-direction: row;
+	// }
 
-	#lbImg {
-		height: 100%;
-		width: auto;
-		margin: 0 auto;
-	}
+	// #lbImg {
+	// 	height: 100%;
+	// 	width: auto;
+	// 	margin: 0 auto;
+	// }
 }

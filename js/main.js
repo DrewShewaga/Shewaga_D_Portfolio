@@ -93,7 +93,10 @@ function indexLoad() {
         devImg1 = document.querySelector("#workImg1"),
         devImg2 = document.querySelector("#workImg2"),
         devImg3 = document.querySelector("#workImg3"),
-        devImg4 = document.querySelector("#workImg4");
+        devImg4 = document.querySelector("#workImg4"),
+        bdTitle = document.querySelector(".bdTitle"),
+        bdRole = document.querySelector(".bdRole"),
+        bdDesc = document.querySelector(".bdDesc");
 
     
     //FUNCTIONS
@@ -119,21 +122,33 @@ function indexLoad() {
         lightbox.classList.add('showLightbox');
         lbImg.src = "images/pureVolume.png";
         body.classList.add('scrollStop');
+        bdTitle.innerHTML = "Pure Volume";
+        bdRole.innerHTML = "Developer";
+        bdDesc.innerHTML = "This website is a Proof of Concept for PureVolume.com. Designed in 2018 to showcase music and entertainment articles. One of the main goals of this site was to drive traffic to advertisements.";
     }
     function lbOpen2() {
         lightbox.classList.add('showLightbox');
         lbImg.src = "images/mind_over_melody.png";
         body.classList.add('scrollStop');
+        bdTitle.innerHTML = "Mind Over Melody";
+        bdRole.innerHTML = "Designer/ Developer";
+        bdDesc.innerHTML = "Mind Over Melody is a concept site loaded with SVG and CSS animations. The purpose of the site is to highlight different artists from popular cities around the world.";
     }
     function lbOpen3() {
         lightbox.classList.add('showLightbox');
         lbImg.src = "images/starship_troopers.png";
         body.classList.add('scrollStop');
+        bdTitle.innerHTML = "Starship Troopers 20th Anniversary";
+        bdRole.innerHTML = "Designer/ Developer";
+        bdDesc.innerHTML = "A website based around the 20th anniversary of Starship Troopers. It features a custom trailer, a custom video player, and more.";
     }
     function lbOpen4() {
         lightbox.classList.add('showLightbox');
         lbImg.src = "images/st_infographic.png";
         body.classList.add('scrollStop');
+        bdTitle.innerHTML = "Star Trek: Hour Count Infographic";
+        bdRole.innerHTML = "Designer/ Developer";
+        bdDesc.innerHTML = "This website is an interactive info-graphic that adds together all of Star Trek films and TV shows one by one. Discovery not included.";
     }
 
 
